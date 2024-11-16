@@ -1,0 +1,138 @@
+/* File: Piechart.css */
+
+/* Container styling */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Soft background */
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Search input styling */
+form input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+form input:focus {
+    outline: none;
+    border: 1px solid #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Search button styling */
+form button {
+    height: 50px;
+    width: 100%;
+    max-width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Error message styling */
+.text-danger {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #dc3545;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Loading message styling */
+p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+/* Chart container styling */
+.apexcharts-canvas {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    form input {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    form button {
+        height: 45px;
+        font-size: 14px;
+    }
+}
+.container-fluid {
+    background-color: #ffcad4;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-fluid {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input.form-control {
+    width: 70%;
+    margin: 10px 0;
+  }
+  
+  button.btn {
+    width: 30%;
+    margin-top: 10px;
+  }
